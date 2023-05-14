@@ -1,0 +1,146 @@
+/* body{
+    background-color:#eee
+}
+
+ul{
+    padding: 0%;
+    margin: 0%;
+    background-color: #ddd;
+    padding: 20px;
+    margin: 20px auto;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+ul li{
+    width: 60px;
+    height: 60px;
+    border: 2px solid black;
+    cursor: pointer;
+    opacity: 0.4;
+    transition: 0.3s;
+}
+
+
+.active{
+    opacity: 1;
+}
+ul li:hover{
+    opacity: 1;
+}
+ul li:first-child{
+    background-color: red;
+}
+ul li:nth-child(2){
+    background-color: blue;
+    
+}
+ul li:nth-child(3){
+    background-color: green;
+    
+}
+ul li:nth-child(4){
+    background-color: yellow;
+    
+}
+ul li:nth-child(5){
+    background-color: black;
+
+}
+
+.box{
+    width: 600px;
+    height: 300px;
+    margin: 20px auto;
+    background-color: red;
+} */
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+
+  }
+  .container {
+    width: 500px;
+    margin: 20px auto;
+  }
+  .main {
+    background-color: #eee;
+    border-radius: 6px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+  }
+  .addtask {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    flex: 1;
+  }
+  .addtask:focus {
+    outline: none;
+  }
+  .add {
+    border: none;
+    background-color: #f44336;
+    color: white;
+    padding: 10px;
+    border-radius: 6px;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  .add2 {
+    border: none;
+    background-color: #f44336;
+    color: white;
+    padding: 10px;
+    border-radius: 6px;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  .del {
+    border: none;
+    background-color: #f44336;
+    color: white;
+    padding: 10px;
+    border-radius: 6px;
+    margin-left: 10px;
+    cursor: pointer;
+    
+  }
+  .tasks {
+    background-color: #eee;
+    margin-top: 20px;
+    border-radius: 6px;
+    padding: 20px;
+  }
+  .tasks .task {
+    background-color: white;
+    padding: 10px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.3s;
+    cursor: pointer;
+    border: 1px solid #ccc;
+  }
+  .tasks .task:not(:last-child) {
+    margin-bottom: 15px;
+  }
+  .tasks .task:hover {
+    background-color: #f7f7f7;
+  }
+  .tasks .task.done {
+    opacity: 0.5;
+  }
+  .tasks .task span {
+    font-weight: bold;
+    font-size: 10px;
+    background-color: red;
+    color: white;
+    padding: 2px 6px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
